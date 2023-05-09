@@ -131,7 +131,7 @@ EMAIL_HOST_USER = 'tt8338931@gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_PASSWORD = 'josq wbqt bcvu cfox'
 
-REDIS_HOST = '0.0.0.0'
+REDIS_HOST = 'localhost'
 REDIS_PORT = '6379'
 CELERY_BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 CELERY_BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
